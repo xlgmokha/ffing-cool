@@ -1,7 +1,7 @@
 task :default => :build
 
 task :clean do
-  sh 'rm *.so'
+  sh 'rm -f *.so'
 end
 
 desc 'build libgreeting.so'
