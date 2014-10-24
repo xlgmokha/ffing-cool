@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int greet(char *name) {
+void greet(char *name) {
   printf("Hello %s\n", name);
 }
 
