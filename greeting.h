@@ -1,2 +1,1 @@
-
 void greet(char *name);

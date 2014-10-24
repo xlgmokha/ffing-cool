@@ -3,7 +3,7 @@ require 'ffi'
 class Greeting
   extend FFI::Library
   ffi_lib 'greeting'
-  attach_function :greet, [:string], :int
+  attach_function :greet, [:string], :string
 end
 
-Greeting.greet('mo')
+puts Greeting.greet('mo')
